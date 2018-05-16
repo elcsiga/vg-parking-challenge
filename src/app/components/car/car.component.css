@@ -1,0 +1,15 @@
+:host > div {
+  --car-size: 30px;
+
+  display: inline-block;
+  width: var(--car-size);
+  height: var(--car-size);
+  border: 0;
+
+
+}
+:host > div > img {
+  width: calc( var(--car-size) - 4px );
+  height:  calc( var(--car-size) - 4px );
+  margin: 2px;
+}

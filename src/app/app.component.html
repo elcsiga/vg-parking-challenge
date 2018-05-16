@@ -1,1 +1,11 @@
+<div>
+  <app-car [type]="car.type" *ngFor="let car of queue"></app-car>
+</div>
 
+<div class="parking">
+  <app-car [type]="car.type" *ngFor="let car of parkings[0]"></app-car>
+</div>
+
+<div class="parking">
+  <app-car [type]="car.type" *ngFor="let car of parkings[1]"></app-car>
+</div>
