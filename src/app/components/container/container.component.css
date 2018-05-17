@@ -1,0 +1,7 @@
+:host > div {
+  position: absolute;
+  box-sizing: content-box;
+
+  border: 10px solid black;
+  background-color: grey;
+}

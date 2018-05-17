@@ -1,11 +1,25 @@
 <div>
-  <app-car [type]="car.type" *ngFor="let car of queue"></app-car>
-</div>
+  <div>
+    <app-container
+      [pos]="{x: 1, y: 1}"
+      [size]="{w: 10, h: 3}"
+    ></app-container>
 
-<div class="parking">
-  <app-car [type]="car.type" *ngFor="let car of parkings[0]"></app-car>
-</div>
+    <app-container
+      [pos]="{x: 1, y: 5}"
+      [size]="{w: 10, h: 3}"
+    ></app-container>
 
-<div class="parking">
-  <app-car [type]="car.type" *ngFor="let car of parkings[1]"></app-car>
+    <app-container
+      [pos]="{x: 1, y: 9}"
+      [size]="{w: 10, h: 3}"
+    ></app-container>
+
+    <app-container
+      [pos]="{x: 1, y: 9}"
+      [size]="{w: 10, h: 3}"
+    ></app-container>
+
+
+  </div>
 </div>

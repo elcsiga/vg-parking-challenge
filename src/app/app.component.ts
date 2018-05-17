@@ -17,11 +17,11 @@ export class AppComponent {
   parkings: Car[][] = [[], [], []];
 
   constructor() {
-    this.fillqueue();
+    //this.fillqueue();
 
-    setInterval(() => {
-      this.park(0);
-    }, 2000);
+    //setInterval(() => {
+    //  this.park(0);
+    //}, 2000);
   }
 
   fillqueue() {

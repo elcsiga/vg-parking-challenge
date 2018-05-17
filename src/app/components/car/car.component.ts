@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-
-export type CarType = 'employee' | 'manager';
+import {CarType} from '../../common';
 
 @Component({
   selector: 'app-car',

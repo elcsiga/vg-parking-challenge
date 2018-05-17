@@ -1,12 +1,21 @@
-.parking {
+:host > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-  --car-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  margin: 10px;
-  box-sizing: content-box;
-  border: 10px solid black;
-  background-color: grey;
+  background-color: gray;
+}
 
-  width: calc( var(--car-size) * 10 );
-  height: calc( var(--car-size) * 3 );
+:host > div > div {
+  width: calc( var(--car-size) * 20 );
+  height: calc( var(--car-size) * 20 );
+
+  background-color: white;
+  position: relative;
 }
